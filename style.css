@@ -1,28 +1,78 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+
 }
 
 h1 {
-    font-size: 50px;
+    color: rgb(61, 61, 61);
+}
+
+#header-1 {
+    border-left: 7px solid rgb(255, 93, 65);
+    padding-left: 10px;
+    font-size: 60px;
+
 }
 
 h1 span {
-    color: orange;
+    color: rgb(247, 190, 84);
 }
 
 .header-1 {
     border-left: orangered;
 }
 
-section {
+.first-para {
+    font-size: 20px;
+}
+
+.flexible-container {
     display: flex;
 }
 
 .half-width {
-    width: 50%;
+    width: 60%;
+    padding-top: 5%;
+
 }
 
 .half-width img {
-    width: 70%;
+    width: 60%;
+
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: rgb(252, 84, 55);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+#my-mission {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box-half-width {
+    width: 30%;
+
+}
+
+.box-half-width img {
+    width: 20%;
+}
+
+.three-box-area h3 {
+    color: blue;
+}
+
+.three-box-area div {
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    width: 30%;
 }
