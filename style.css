@@ -59,7 +59,10 @@ h1 span {
 }
 
 .box-half-width {
-    width: 30%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 
 }
 
