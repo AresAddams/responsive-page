@@ -59,23 +59,68 @@ h1 span {
 }
 
 .box-half-width {
-    width: 40%;
+    width: 10%;
     float: left;
-    margin-left: 5%;
+    margin-left: 2%;
     padding-left: 2%;
+    padding-right: 5%;
+    padding-bottom: 2%;
 
 }
 
 .box-half-width img {
-    width: 20%;
+    width: 50%;
 }
 
 .three-box-area h3 {
-    color: blue;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
 }
 
 .three-box-area div {
-    box-shadow: 5px 7px 40px gray;
+
+    border-radius: 20px;
     height: 80%;
-    width: 30%;
+    width: 20%;
+}
+
+.three-box-area p {
+    font-size: 16px;
+}
+
+#mission {
+    background-color: rgb(236, 188, 126);
+}
+
+#vission {
+    background-color: cadetblue;
+}
+
+#goals {
+    background-color: pink;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.third-para {
+    background-image: url(/images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 70%;
+}
+
+.text {
+    width: inherit;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+    font-size: 17px;
 }
